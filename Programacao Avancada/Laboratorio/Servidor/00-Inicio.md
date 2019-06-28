@@ -2,7 +2,7 @@
 
 1. [Implementando um servidor com Express](01-Express.md)
 2. [Adicionando middleware](02-Middlewares.md)
-3. [Recolhendo parâmetros de request](03-Request.md)
+3. [Recolhendo parâmetros de request](03-Requests.md)
 4. [Servindo arquivos estáticos](04-StaticFiles.md)
 5. [Adicionando rotas](05-Rotas.md)
 6. [Implementando conexões seguras](06-https.md)
