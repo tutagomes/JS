@@ -34,7 +34,7 @@ E finalmente estabelecer um valor que contenha tags HTML à variável:
       });
 ```
 
-> Tente evitar utilizar a diretiva v-html para mostrar dados que não conhece. Como o conteúdo é renderizado como HTML normal, sua aplicação pode se tornar vulnerável à injeções XSS. Por exemplo, tente trocar o valor de message para: `{{constructor.constructor("alert('xss')")() }}` e analise o resultado.
+> Tente evitar utilizar a diretiva v-html para mostrar dados que não conhece. Como o conteúdo é renderizado como HTML normal, sua aplicação pode se tornar vulnerável à injeções XSS. Por exemplo, tente trocar o valor de message para: `<button onclick="alert()"> TESTE </button>` e analise o resultado.
 
 
 
