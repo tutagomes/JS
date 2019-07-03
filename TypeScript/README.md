@@ -13,3 +13,9 @@ Se quiser uma leitura rápida e interessante, dê uma olhada no post do Diego - 
 
 E se tiver dúvidas com os tipos do TypeScript, dê uma olhada [aqui](https://jorgedacostaza.gitbook.io/typescript-pt/type-system).
 
+
+
+Sobre REGEX: https://regexone.com/
+
+Versão BETA do 101: https://regex101.com/quiz
+
