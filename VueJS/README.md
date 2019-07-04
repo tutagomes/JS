@@ -12,3 +12,7 @@ Vamos lá então!
 
  [03-Diretivas](Laboratorio/03-Diretivas.md) 
 
+ [04-Quasar.md](Laboratorio/04-Quasar)  
+
+[05-Componentes](Laboratorio/05-Componentes.md) 
+
