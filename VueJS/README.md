@@ -16,3 +16,4 @@ Vamos lá então!
 
 [05-Componentes](Laboratorio/05-Componentes.md) 
 
+[06-Vuex](https://github.com/tutagomes/JS/blob/master/VueJS/Laboratorio/06-Vuex.md)
