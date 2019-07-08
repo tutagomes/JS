@@ -1,0 +1,15 @@
+FROM microsoft/dotnet:2.2-sdk AS build-env
+WORKDIR /app
+
+# Cópia do código e Build da aplicacao
+COPY Final/ ./
+RUN dotnet publish Final.Application/*csproj -c Release -o out
+
+# Build da imagem
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
+WORKDIR /app
+COPY --from=build-env /app/Final.Application/out .
+ADD Final/Final.Infra.Data/app.db app.db
+RUN ls -la
+EXPOSE 80
+ENTRYPOINT ["dotnet", "Final.Application.dll"]

@@ -15,9 +15,3 @@ Cada módulo tem uma pasta na raiz, e dentro dela temos:
 - Laboratório
 
   - Aplicação do conteúdo com exercícios
-
-    
-
-- Aprofundamento
-
-  - Uma coleção de mais informações sobre o conteúdo

@@ -1,0 +1,50 @@
+{
+    "ReRoutes": [
+      {
+        "DownstreamPathTemplate": "/",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "127.0.0.1",
+            "Port": 7000
+          }
+        ],
+        "UpstreamPathTemplate": "/produto/",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "TestKey",
+          "AllowedScopes": []
+      }
+      },
+      {
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "127.0.0.1",
+            "Port": 7000
+          }
+        ],
+        "UpstreamPathTemplate": "/produto/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "TestKey",
+          "AllowedScopes": []
+      }
+      },
+      {
+        "DownstreamPathTemplate": "/api/login",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "127.0.0.1",
+            "Port": 8001
+          }
+        ],
+        "UpstreamPathTemplate": "/auth",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
+      }
+    ],
+    
+    "GlobalConfiguration": { }
+  }

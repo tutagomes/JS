@@ -1,0 +1,11 @@
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.csprojAssemblyReference.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.csproj.CoreCompileInputs.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.AssemblyInfoInputs.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.AssemblyInfo.cs
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/bin/Debug/netcoreapp2.2/AuthTeste.deps.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/bin/Debug/netcoreapp2.2/AuthTeste.runtimeconfig.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/bin/Debug/netcoreapp2.2/AuthTeste.runtimeconfig.dev.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/bin/Debug/netcoreapp2.2/AuthTeste.dll
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/bin/Debug/netcoreapp2.2/AuthTeste.pdb
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.dll
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/AuthTeste/obj/Debug/netcoreapp2.2/AuthTeste.pdb

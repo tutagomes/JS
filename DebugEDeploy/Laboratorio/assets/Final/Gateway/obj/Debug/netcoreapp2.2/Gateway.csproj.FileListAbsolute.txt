@@ -1,0 +1,14 @@
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.csprojAssemblyReference.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.csproj.CoreCompileInputs.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.RazorAssemblyInfo.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.RazorAssemblyInfo.cs
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.AssemblyInfoInputs.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.AssemblyInfo.cs
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/bin/Debug/netcoreapp2.2/Gateway.deps.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/bin/Debug/netcoreapp2.2/Gateway.runtimeconfig.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/bin/Debug/netcoreapp2.2/Gateway.runtimeconfig.dev.json
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/bin/Debug/netcoreapp2.2/Gateway.dll
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/bin/Debug/netcoreapp2.2/Gateway.pdb
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.RazorTargetAssemblyInfo.cache
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.dll
+/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/Debug/netcoreapp2.2/Gateway.pdb

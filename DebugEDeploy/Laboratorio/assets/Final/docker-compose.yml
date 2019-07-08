@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+  auth:
+    image: auth01
+    restart: always
+   
+  produto:
+    image: pdt01
+    restart: always
+     
+  gateway:
+    depends_on:
+      - auth
+      - produto
+    image: gateway01
+    ports:
+      - "8000:80"
+    restart: always
