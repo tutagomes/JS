@@ -89,3 +89,5 @@ E conseguiremos facilmente debugar a aplicação!
 
 > Atualmente há um problema nos breakpoints do VSCode quando um module bundler como o webpack é utilizado, principalmente com muitas configurações como é o caso do Quasar, por isso a necessidade de utilizar o comando `breakpoint`.
 
+https://vuejs.org/v2/cookbook/debugging-in-vscode.html
+
