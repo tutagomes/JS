@@ -55,7 +55,12 @@ namespace Gateway
                  x.RequireHttpsMetadata = false;
                  x.TokenValidationParameters = tokenValidationParameters;
              });
-
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+                        {
+                            builder.AllowAnyOrigin()
+                                .AllowAnyMethod()
+                                .AllowAnyHeader();
+                        }));
             // services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddOcelot(Configuration);
         }
@@ -70,6 +75,8 @@ namespace Gateway
 
             // app.UseHttpsRedirection();
             // app.UseMvc();
+            app.UseCors("MyPolicy");
+
             app.UseAuthentication();
             app.UseOcelot().Wait();
         }

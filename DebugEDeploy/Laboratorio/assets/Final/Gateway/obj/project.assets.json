@@ -12137,11 +12137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/Gateway.csproj",
+      "projectUniqueName": "/Volumes/Extender/Nice/Arkhi/Treinamentos/JS/DebugEDeploy/Laboratorio/assets/Final/Gateway/Gateway.csproj",
       "projectName": "Gateway",
-      "projectPath": "/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/Gateway.csproj",
+      "projectPath": "/Volumes/Extender/Nice/Arkhi/Treinamentos/JS/DebugEDeploy/Laboratorio/assets/Final/Gateway/Gateway.csproj",
       "packagesPath": "/Users/arthurfaria/.nuget/packages/",
-      "outputPath": "/Volumes/Extender/Nice/Arkhi/Treinamentos/tempo/Final/Gateway/obj/",
+      "outputPath": "/Volumes/Extender/Nice/Arkhi/Treinamentos/JS/DebugEDeploy/Laboratorio/assets/Final/Gateway/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

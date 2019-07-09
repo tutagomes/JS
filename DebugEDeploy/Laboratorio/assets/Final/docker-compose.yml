@@ -5,7 +5,7 @@ services:
     image: auth01
     restart: always
    
-  produto:
+  api:
     image: pdt01
     restart: always
      

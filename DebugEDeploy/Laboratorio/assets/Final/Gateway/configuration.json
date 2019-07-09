@@ -1,50 +1,46 @@
 {
-    "ReRoutes": [
-      {
-        "DownstreamPathTemplate": "/",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "produto",
-            "Port": 80
-          }
-        ],
-        "UpstreamPathTemplate": "/produto/",
-        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "TestKey",
-          "AllowedScopes": []
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/tarefas/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/tarefas/{everything}",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
       }
-      },
-      {
-        "DownstreamPathTemplate": "/{everything}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "produto",
-            "Port": 80
-          }
-        ],
-        "UpstreamPathTemplate": "/produto/{everything}",
-        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "TestKey",
-          "AllowedScopes": []
+    },
+    {
+      "DownstreamPathTemplate": "/tarefas",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/tarefas",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
       }
-      },
-      {
-        "DownstreamPathTemplate": "/api/login",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "auth",
-            "Port": 80
-          }
-        ],
-        "UpstreamPathTemplate": "/auth",
-        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
-      }
-    ],
-    
-    "GlobalConfiguration": { }
-  }
+    },
+    {
+      "DownstreamPathTemplate": "/api/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/login"
+    }
+  ],
+  "GlobalConfiguration": {}
+}
