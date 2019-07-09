@@ -1,6 +1,6 @@
 # Preparando o primeiro ambiente
 
-Para começar a utilizar o Que, vamos primeiro implementá-lo em um arquivo HTML. Por enquanto, iremos trabalhar somente neste arquivo, incluindo scripts e tags à medida que progredirmos.
+Para começar a utilizar o Vue, vamos primeiro implementá-lo em um arquivo HTML. Por enquanto, iremos trabalhar somente neste arquivo, incluindo scripts e tags à medida que progredirmos.
 
 Para isso, vamos criar uma nova pasta para esta primeira parte e adicionar um arquivo HTML como o abaixo:
 
