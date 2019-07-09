@@ -47,6 +47,7 @@ RUN quasar build
 
 FROM nginx
 WORKDIR /usr/share/nginx/html
+EXPOSE 80
 COPY --from=build /app/dist/spa .
 
 ```
